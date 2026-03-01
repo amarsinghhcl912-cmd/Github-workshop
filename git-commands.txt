@@ -25,16 +25,6 @@
   26 git status
   27 git restore testing.py
   28 git status
-<<<<<<< HEAD
-  BUG_FIX
-=======
-
-New Line 1
-New Line 2
-New Line 3
-New Line 4
-Branch Line 1
-Branch line 2
-Branch Line 3
-Branch line 4
->>>>>>> b472cc6c829bbd2a9ee628cdd7279cba9f9d8d05
+bug fix files
+BUG fix files
+Hanji kya haal chall
