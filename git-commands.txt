@@ -25,8 +25,4 @@
   26 git status
   27 git restore testing.py
   28 git status
-
-New Line 1
-New Line 2
-New Line 3
-New Line 4
+bug fix files
