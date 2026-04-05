@@ -1,0 +1,16 @@
+applications:
+  HTTP:
+    protocol: tcp
+    port: 80
+
+  HTTPS:
+    protocol: tcp
+    port: 443
+
+  SSH:
+    protocol: tcp
+    port: 22
+
+  DNS:
+    protocol: tcp
+    port: 53
