@@ -1,0 +1,46 @@
+policies:
+  - from_zone: Trust
+    to_zone: Untrust
+    rules:
+      - name: allow-http-https
+        source: any
+        destination: any
+        applications:
+          - HTTP
+          - HTTPS
+        action: permit
+
+      - name: allow-ssh-out
+        source: any
+        destination: any
+        applications:
+          - SSH
+        action: deny
+
+  - from_zone: Dev
+    to_zone: Untrust
+    rules:
+      - name: allow-https-only
+        source: any
+        destination: any
+        applications:
+          - HTTPS
+        action: permit
+
+  - from_zone: Trust
+    to_zone: Dev
+    rules:
+      - name: allow-ssh-to-dev
+        source: any
+        destination: any
+        applications:
+          - SSH
+        action: permit
+
+      - name: allow-web-to-dev
+        source: any
+        destination: any
+        applications:
+          - HTTP
+          - HTTPS
+        action: permit
