@@ -22,3 +22,6 @@ applications:
   SNMP:
     protocol: udp
     port: 161
+  SMTP:
+    protocol: tcp
+    port: 25
