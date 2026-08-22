@@ -18,3 +18,7 @@ applications:
   FTP:
     protocol: tcp
     port: 21
+
+  SNMP:
+    protocol: udp
+    port: 161
