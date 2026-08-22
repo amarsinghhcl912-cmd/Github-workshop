@@ -14,3 +14,7 @@ applications:
   DNS:
     protocol: tcp
     port: 53
+
+  FTP:
+    protocol: tcp
+    port: 21
