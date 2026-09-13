@@ -11,21 +11,6 @@ applications:
     protocol: tcp
     port: 22
 
-  DNS:
-    protocol: tcp
-    port: 53
-
-  FTP:
-    protocol: tcp
-    port: 21
-
-  SNMP:
-    protocol: udp
-    port: 161
-  SMTP:
-    protocol: tcp
-    port: 25
-
  RDP:
     protocol: tcp
     port: 3389
@@ -49,3 +34,19 @@ applications:
   LDAP:
     protocol: tcp
     port: 389
+
+  DNS:
+    protocol: tcp
+    port: 53
+
+  FTP:
+    protocol: tcp
+    port: 21
+
+  SNMP:
+    protocol: udp
+    port: 161
+
+  SMTP:
+    protocol: tcp
+    port: 25
