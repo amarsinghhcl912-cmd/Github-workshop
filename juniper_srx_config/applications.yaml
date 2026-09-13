@@ -11,6 +11,30 @@ applications:
     protocol: tcp
     port: 22
 
+ RDP:
+    protocol: tcp
+    port: 3389
+
+ TELNET:
+    protocol: tcp
+    port: 23
+
+ NTP:
+    protocol: udp
+    port: 123
+
+  IMAP:
+    protocol: tcp
+    port: 143
+
+  POP3:
+    protocol: tcp
+    port: 110
+
+  LDAP:
+    protocol: tcp
+    port: 389
+
   DNS:
     protocol: tcp
     port: 53
@@ -25,6 +49,7 @@ applications:
 
   SMTP:
     protocol: tcp
+    port: 25
     port: 25
 
 MYSQL:
