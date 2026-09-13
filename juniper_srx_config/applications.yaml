@@ -22,6 +22,11 @@ applications:
   SNMP:
     protocol: udp
     port: 161
+
   SMTP:
     protocol: tcp
     port: 25
+
+MYSQL:
+    protocol: tcp
+    port: 3306
